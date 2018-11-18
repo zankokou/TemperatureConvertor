@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    height: 33.33vh;
+}
+
+input[type=number] {
+    flex: 1;
+    border: 1px solid pink;
+    font-size: 10em;
+    text-align: center;
+    z-index: 1;
+}
+
+::-webkit-input-placeholder {
+    color: #222222;
+}
